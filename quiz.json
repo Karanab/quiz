@@ -1,0 +1,20 @@
+{
+  "questions": {
+    "q1": {
+      "question": "भारत की राजधानी क्या है?",
+      "options": [
+        {"text": "मुंबई", "correct": false},
+        {"text": "दिल्ली", "correct": true},
+        {"text": "कोलकाता", "correct": false},
+        {"text": "चेन्नई", "correct": false}
+      ]
+    },
+    "q2": {
+      "question": "सूर्य ग्रहण कब होता है?",
+      "options": [
+        {"text": "चंद्रमा के पृथ्वी और सूर्य के बीच आने पर", "correct": true},
+        {"text": "पृथ्वी के चंद्रमा और सूर्य के बीच आने पर", "correct": false}
+      ]
+    }
+  }
+}
