@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सुपर क्विज - ज्ञान का खजाना</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-app">
+        <!-- हेडर सेक्शन -->
+        <div class="quiz-header">
+            <div class="logo">
+                <img src="assets/quiz-icon.png" alt="क्विज लोगो">
+                <h1>सुपर क्विज</h1>
+            </div>
+            <div class="stats">
+                <div class="timer">
+                    <i class="fas fa-clock"></i>
+                    <span id="time">00:00</span>
+                </div>
+                <div class="score">
+                    <i class="fas fa-star"></i>
+                    <span id="points">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- प्रगति बार -->
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+
+        <!-- क्विज कंटेनर -->
+        <div class="quiz-body">
+            <div id="start-screen" class="start-screen">
+                <h2>ज्ञान की परीक्षा में स्वागत है!</h2>
+                <p>10 रोचक प्रश्नों का सामना करें और अपने स्कोर को मापें</p>
+                <button id="start-btn" class="btn start-btn">क्विज शुरू करें</button>
+            </div>
+
+            <div id="quiz-screen" class="quiz-screen hide">
+                <h2 id="question">प्रश्न यहाँ दिखाई देगा</h2>
+                <div id="options" class="options">
+                    <!-- विकल्प यहाँ जावास्क्रिप्ट द्वारा जोड़े जाएंगे -->
+                </div>
+                <button id="next-btn" class="btn next-btn hide">अगला प्रश्न <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div id="result-screen" class="result-screen hide">
+                <div class="result-card">
+                    <h2>आपका परिणाम</h2>
+                    <div class="result-stats">
+                        <div class="stat-box">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="correct-answers">0</span>
+                            <p>सही उत्तर</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-times-circle"></i>
+                            <span id="wrong-answers">0</span>
+                            <p>गलत उत्तर</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-clock"></i>
+                            <span id="total-time">00:00</span>
+                            <p>समय</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-star"></i>
+                            <span id="total-score">0</span>
+                            <p>स्कोर</p>
+                        </div>
+                    </div>
+                    <div class="performance">
+                        <h3 id="performance-text">उत्कृष्ट प्रदर्शन!</h3>
+                        <div class="performance-bar">
+                            <div id="performance-level" class="level"></div>
+                        </div>
+                    </div>
+                    <button id="restart-btn" class="btn restart-btn">फिर से खेलें</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase और अन्य स्क्रिप्ट्स -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
