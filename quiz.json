@@ -1,19 +1,273 @@
 {
   "questions": {
     "q1": {
-      "question": "भारत की राजधानी क्या है?",
+      "question": "धातुओं की सबसे महत्वपूर्ण विशेषता क्या है?",
       "options": [
-        {"text": "मुंबई", "correct": false},
-        {"text": "दिल्ली", "correct": true},
-        {"text": "कोलकाता", "correct": false},
-        {"text": "चेन्नई", "correct": false}
+        {"text": "वे चमकदार होती हैं", "correct": true},
+        {"text": "वे ठोस नहीं होतीं", "correct": false},
+        {"text": "वे ऊष्मा की खराब चालक होती हैं", "correct": false},
+        {"text": "वे बिजली की खराब चालक होती हैं", "correct": false}
       ]
     },
     "q2": {
-      "question": "सूर्य ग्रहण कब होता है?",
+      "question": "जल का रासायनिक सूत्र क्या है?",
       "options": [
-        {"text": "चंद्रमा के पृथ्वी और सूर्य के बीच आने पर", "correct": true},
-        {"text": "पृथ्वी के चंद्रमा और सूर्य के बीच आने पर", "correct": false}
+        {"text": "H2O", "correct": true},
+        {"text": "CO2", "correct": false},
+        {"text": "NaCl", "correct": false},
+        {"text": "O2", "correct": false}
+      ]
+    },
+    "q3": {
+      "question": "हाइड्रोक्लोरिक अम्ल का सूत्र क्या है?",
+      "options": [
+        {"text": "HCl", "correct": true},
+        {"text": "NaOH", "correct": false},
+        {"text": "H2SO4", "correct": false},
+        {"text": "CH4", "correct": false}
+      ]
+    },
+    "q4": {
+      "question": "पौधे अपना भोजन किस प्रक्रिया से बनाते हैं?",
+      "options": [
+        {"text": "श्वसन", "correct": false},
+        {"text": "प्रकाश संश्लेषण", "correct": true},
+        {"text": "अवशोषण", "correct": false},
+        {"text": "अपघटन", "correct": false}
+      ]
+    },
+    "q5": {
+      "question": "बल की SI इकाई क्या है?",
+      "options": [
+        {"text": "न्यूटन", "correct": true},
+        {"text": "जूल", "correct": false},
+        {"text": "पास्कल", "correct": false},
+        {"text": "मीटर", "correct": false}
+      ]
+    },
+    "q6": {
+      "question": "डीएनए का पूरा नाम क्या है?",
+      "options": [
+        {"text": "डीऑक्सीराइबोन्यूक्लिक अम्ल", "correct": true},
+        {"text": "डाईहाइड्रोजन नाइट्रिक अम्ल", "correct": false},
+        {"text": "डबल न्यूट्रल अम्ल", "correct": false},
+        {"text": "डाईऑक्सीनाइट्रिक अम्ल", "correct": false}
+      ]
+    },
+    "q7": {
+      "question": "पौधों में हरे रंग के लिए कौन सा पिगमेंट जिम्मेदार है?",
+      "options": [
+        {"text": "क्लोरोफिल", "correct": true},
+        {"text": "हिमोग्लोबिन", "correct": false},
+        {"text": "मेलानिन", "correct": false},
+        {"text": "कैरोटीन", "correct": false}
+      ]
+    },
+    "q8": {
+      "question": "मनुष्य के शरीर में सबसे बड़ा अंग कौन सा है?",
+      "options": [
+        {"text": "यकृत", "correct": false},
+        {"text": "हृदय", "correct": false},
+        {"text": "फेफड़ा", "correct": false},
+        {"text": "त्वचा", "correct": true}
+      ]
+    },
+    "q9": {
+      "question": "बिजली के बल्ब में कौन सी गैस भरी जाती है?",
+      "options": [
+        {"text": "आर्गन", "correct": true},
+        {"text": "ऑक्सीजन", "correct": false},
+        {"text": "कार्बन डाइऑक्साइड", "correct": false},
+        {"text": "हाइड्रोजन", "correct": false}
+      ]
+    },
+    "q10": {
+      "question": "ध्वनि किस माध्यम में सबसे तेज चलती है?",
+      "options": [
+        {"text": "ठोस", "correct": true},
+        {"text": "तरल", "correct": false},
+        {"text": "गैस", "correct": false},
+        {"text": "निर्वात", "correct": false}
+      ]
+    },
+    "q11": {
+      "question": "पौधों में जल का वाष्पन किस प्रक्रिया द्वारा होता है?",
+      "options": [
+        {"text": "परासरण", "correct": false},
+        {"text": "वाष्पोत्सर्जन", "correct": true},
+        {"text": "प्रकाश संश्लेषण", "correct": false},
+        {"text": "उत्सर्जन", "correct": false}
+      ]
+    },
+    "q12": {
+      "question": "विद्युत धारा का मापन किससे किया जाता है?",
+      "options": [
+        {"text": "एमीटर", "correct": true},
+        {"text": "वोल्टमीटर", "correct": false},
+        {"text": "गैल्वेनोमीटर", "correct": false},
+        {"text": "स्पीडोमीटर", "correct": false}
+      ]
+    },
+    "q13": {
+      "question": "बल्ब का फिलामेंट किस धातु का होता है?",
+      "options": [
+        {"text": "टंग्स्टन", "correct": true},
+        {"text": "तांबा", "correct": false},
+        {"text": "एल्यूमिनियम", "correct": false},
+        {"text": "लोहा", "correct": false}
+      ]
+    },
+    "q14": {
+      "question": "पृथ्वी पर ऋतुओं का परिवर्तन किस कारण होता है?",
+      "options": [
+        {"text": "पृथ्वी का झुकाव और परिक्रमण", "correct": true},
+        {"text": "चंद्रमा का गुरुत्वाकर्षण", "correct": false},
+        {"text": "सूर्य का घूर्णन", "correct": false},
+        {"text": "पवनों का प्रवाह", "correct": false}
+      ]
+    },
+    "q15": {
+      "question": "लोहे पर जंग लगना किसका उदाहरण है?",
+      "options": [
+        {"text": "अपचयन", "correct": false},
+        {"text": "ऑक्सीकरण", "correct": true},
+        {"text": "उष्माक्षेपी अभिक्रिया", "correct": false},
+        {"text": "संलयन", "correct": false}
+      ]
+    },
+    "q16": {
+      "question": "ओज़ोन की परत वायुमंडल के किस भाग में होती है?",
+      "options": [
+        {"text": "समतापमंडल", "correct": true},
+        {"text": "क्षोभमंडल", "correct": false},
+        {"text": "मध्य मण्डल", "correct": false},
+        {"text": "आयन मंडल", "correct": false}
+      ]
+    },
+    "q17": {
+      "question": "मानव शरीर में रक्त का लाल रंग किस कारण होता है?",
+      "options": [
+        {"text": "हिमोग्लोबिन", "correct": true},
+        {"text": "क्लोरोफिल", "correct": false},
+        {"text": "मायोग्लोबिन", "correct": false},
+        {"text": "राइबोसोम", "correct": false}
+      ]
+    },
+    "q18": {
+      "question": "ध्वनि की तीव्रता की इकाई क्या है?",
+      "options": [
+        {"text": "डेसीबल", "correct": true},
+        {"text": "न्यूटन", "correct": false},
+        {"text": "हर्ट्ज़", "correct": false},
+        {"text": "जूल", "correct": false}
+      ]
+    },
+    "q19": {
+      "question": "अम्ल और क्षार के बीच अभिक्रिया से क्या बनता है?",
+      "options": [
+        {"text": "नमक और जल", "correct": true},
+        {"text": "हाइड्रोजन गैस", "correct": false},
+        {"text": "कार्बन डाइऑक्साइड", "correct": false},
+        {"text": "ऑक्सीजन", "correct": false}
+      ]
+    },
+    "q20": {
+      "question": "पौधे की जड़ का मुख्य कार्य क्या है?",
+      "options": [
+        {"text": "जल और खनिजों का अवशोषण", "correct": true},
+        {"text": "प्रकाश संश्लेषण", "correct": false},
+        {"text": "फूल बनाना", "correct": false},
+        {"text": "फल पकाना", "correct": false}
+      ]
+    },
+    "q21": {
+      "question": "कोशिका का पावर हाउस किसे कहा जाता है?",
+      "options": [
+        {"text": "माइटोकॉन्ड्रिया", "correct": true},
+        {"text": "राइबोसोम", "correct": false},
+        {"text": "गोल्जी बॉडी", "correct": false},
+        {"text": "न्यूक्लियस", "correct": false}
+      ]
+    },
+    "q22": {
+      "question": "जब प्रकाश जल से वायु में जाता है तो उसकी गति में क्या परिवर्तन होता है?",
+      "options": [
+        {"text": "गति बढ़ जाती है", "correct": true},
+        {"text": "गति कम हो जाती है", "correct": false},
+        {"text": "गति स्थिर रहती है", "correct": false},
+        {"text": "गति समाप्त हो जाती है", "correct": false}
+      ]
+    },
+    "q23": {
+      "question": "तांबे का रासायनिक प्रतीक क्या है?",
+      "options": [
+        {"text": "Cu", "correct": true},
+        {"text": "Co", "correct": false},
+        {"text": "C", "correct": false},
+        {"text": "Ca", "correct": false}
+      ]
+    },
+    "q24": {
+      "question": "विद्युत ऊर्जा को यांत्रिक ऊर्जा में कौन बदलता है?",
+      "options": [
+        {"text": "विद्युत मोटर", "correct": true},
+        {"text": "जनरेटर", "correct": false},
+        {"text": "ट्रांसफार्मर", "correct": false},
+        {"text": "अल्टरनेटर", "correct": false}
+      ]
+    },
+    "q25": {
+      "question": "अमीबा में भोजन ग्रहण करने की प्रक्रिया को क्या कहते हैं?",
+      "options": [
+        {"text": "फैगोसाइटोसिस", "correct": true},
+        {"text": "डिफ्यूजन", "correct": false},
+        {"text": "अवशोषण", "correct": false},
+        {"text": "परासरण", "correct": false}
+      ]
+    },
+    "q26": {
+      "question": "वायुमंडल में सबसे अधिक पाई जाने वाली गैस कौन सी है?",
+      "options": [
+        {"text": "नाइट्रोजन", "correct": true},
+        {"text": "ऑक्सीजन", "correct": false},
+        {"text": "कार्बन डाइऑक्साइड", "correct": false},
+        {"text": "हाइड्रोजन", "correct": false}
+      ]
+    },
+    "q27": {
+      "question": "श्वसन के दौरान कौन सी गैस ली जाती है?",
+      "options": [
+        {"text": "ऑक्सीजन", "correct": true},
+        {"text": "कार्बन डाइऑक्साइड", "correct": false},
+        {"text": "नाइट्रोजन", "correct": false},
+        {"text": "हाइड्रोजन", "correct": false}
+      ]
+    },
+    "q28": {
+      "question": "तराजू में भार को मापने के लिए किस इकाई का उपयोग किया जाता है?",
+      "options": [
+        {"text": "किलोग्राम", "correct": true},
+        {"text": "मीटर", "correct": false},
+        {"text": "पास्कल", "correct": false},
+        {"text": "एम्पीयर", "correct": false}
+      ]
+    },
+    "q29": {
+      "question": "जीवों की वंशागति का अध्ययन किसे कहते हैं?",
+      "options": [
+        {"text": "आनुवंशिकी", "correct": true},
+        {"text": "जंतु विज्ञान", "correct": false},
+        {"text": "वनस्पति विज्ञान", "correct": false},
+        {"text": "पर्यावरण विज्ञान", "correct": false}
+      ]
+    },
+    "q30": {
+      "question": "ग्रीनहाउस प्रभाव का मुख्य कारण कौन सी गैस है?",
+      "options": [
+        {"text": "कार्बन डाइऑक्साइड", "correct": true},
+        {"text": "ऑक्सीजन", "correct": false},
+        {"text": "नाइट्रोजन", "correct": false},
+        {"text": "आर्गन", "correct": false}
       ]
     }
   }
